@@ -1,0 +1,59 @@
+.move-text {position: relative; top: 100px}
+
+.main-text {text-align: center;}
+
+
+img {
+width: 500px;
+margin: 20px;
+}
+
+ul {
+width: 50px;
+display: block;
+list-style-type: disc;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 820px;
+unicode-bidi: isolate;
+}
+
+table, tr, td, th {border: 1px solid black;}
+
+
+body {
+            display: flex;
+            height: 100%;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #151515;
+            color: white;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #2E2E2E;
+        }
+        .sidebar .profile-menu {
+            margin-top: auto;
+        }
+        .content {
+            flex: 1;
+            padding: 100px;
+        }
+        .product-card {
+            margin-bottom: 20px;
+            margin: 50px;
+        }
+         .product-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }

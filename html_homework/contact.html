@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+   <!-- Боковая панель -->
+    <div class="sidebar d-flex flex-column" style="height: 100vh;">
+        <h2 class="text-center py-3">Меню</h2>
+        <a href="http://localhost:8080" class="active">Главная</a>
+        <a href="http://localhost:8080/category_1">Категории</a>
+        <a href="http://localhost:8080/catalog">Заказы</a>
+        <a href="http://localhost:8080/contact">Контакты</a>
+        <div class="profile-menu mt-auto">
+            <a href="https://my.sky.pro">Профиль</a>
+            <a href="#">Выход</a>
+        </div>
+    </div>
+    <!-- Основной контент -->
+    <div class="content">
+      <div class="row">
+        <h1 class="text-center">Контакты</h1>
+        <div class="col-4" style="margin-left: 200px">
+      <div style="margin-top: 100px">
+        <div class="card border-dark">
+          <div class="card-header text-left">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputText" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="exampleInputText" aria-describedby="addon-wrapping">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputText" class="form-label">Почта</label>
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text" id="addon-wrapping">@</span>
+              <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="emailHelp">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputText" class="form-label">Сообщение</label>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top: 20px">Отправить</button>
+          </div>
+        </form>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-4" style="margin-top: 100px; margin-left: 150px">
+        <h3>Наши контакты</h3>
+        <p>Information<p>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
